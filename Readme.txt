@@ -1,0 +1,3 @@
+This repo is broken down into four different parts each with their own readme containing instructions on how to compile and run each program.
+
+The first part tokenizes the data file, which contains a corpus of Time magazine documents specifically designed for this project. The second part of the search engine creates a dictionary from the postings list created from the first part. The third part of the search engine compresses the dictionary and postings file to variable byte code to save space. The fourth and final part of the search engine takes a text file of queries as well as a file of relevant documents and returns search results as well as the recall and precision metrics of the search engine.
